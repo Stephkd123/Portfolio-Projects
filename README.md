@@ -1,4 +1,6 @@
 # Portfolio-Projects
+
+## ETL Creation and automation using Airflow 
 This repository contains an ETL pipeline automation project designed to extract, transform, and load (ETL) movie rental data using Apache Airflow as the task orchestrator. The project processes data from the Sakila DB Schema and loads it into a destination data warehouse, ensuring structured data for analytics and business intelligence (BI) reporting.
 
 # Project Overview 
@@ -40,6 +42,10 @@ Documentation – Detailed process flow and implementation notes.
 
 For more details on the ETL process and implementation, refer to the repository files.
 
+## ProductSales Analysis using SQL -- Tableau Visualization in Portfolio
+
+- This a project on an Electronics company needing a database to handling sales transactions and track Agent performance across different locations around the world
+- More description and SQl codes for this project are in the ProductSalesProject.sql file 
 
 
 
