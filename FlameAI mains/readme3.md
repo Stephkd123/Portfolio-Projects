@@ -18,3 +18,9 @@ Streamlit
 Folium (for map visualization)
 SQLite3 (for backend geolocation data)
 Python (asyncio, os, dotenv)
+
+🚀 Future Work
+
+Add more industry-specific resume templates
+Integrate job search API
+Improve AI feedback tracing and memory
