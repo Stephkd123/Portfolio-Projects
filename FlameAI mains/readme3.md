@@ -20,7 +20,23 @@ SQLite3 (for backend geolocation data)
 Python (asyncio, os, dotenv)
 
 🚀 Future Work
-
 Add more industry-specific resume templates
 Integrate job search API
 Improve AI feedback tracing and memory
+
+📘 Document Ingestion & Knowledge Embedding Pipeline - (doc_vect_db.ipynb) for code samples
+To ensure FlameAI delivers highly accurate, department-specific responses to university-related queries, we implemented a document vectorization pipeline that transforms official student handbooks from various CGU departments into searchable vector representations.
+
+This pipeline follows current GenAI best practices:
+
+📂 Document Loading: Departmental handbooks (PDF/Docx format) are programmatically loaded and parsed using LangChain's document loaders.
+
+✂️ Document Chunking: We utilized RecursiveCharacterTextSplitter to divide long documents into coherent chunks with overlap, preserving context for more accurate retrieval.
+
+🧠 Embedding Generation: Using OpenAIEmbeddings, each chunk was converted into high-dimensional vector representations optimized for semantic similarity search.
+
+🗃️ Vector Store Creation: These vectors were stored in a PGVector-powered vector database, allowing efficient retrieval of relevant chunks using cosine similarity.
+
+🔍 RAG Integration: At runtime, user queries are matched to relevant document chunks, retrieved in real time, and injected into the prompt template, ensuring FlameAI's responses are grounded in accurate and verifiable source material.
+
+This document-processing system provides the foundation for Retrieval-Augmented Generation (RAG) in FlameAI, enhancing factual accuracy and allowing scalable updates as more academic content is integrated. This architecture reflects a deep understanding of knowledge grounding in modern AI systems, ensuring trustworthiness and relevance in every response.
