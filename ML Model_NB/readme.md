@@ -24,3 +24,9 @@ Manhattan (7 clusters) → Adds robustness for high-dimensional sparse features.
 #### Visualization & Outlier Analysis
 Cluster assignments were validated using Chi-Square significance plots and pie chart distributions.
 Outlier detection ensured clusters represented true segmentations rather than noise.
+
+#### Derivatives & Insights
+
+Cluster Profiles → Each group aligns with distinct financial health indicators (e.g., profitability vs. asset-heavy companies).
+Feature Importance → Key variables such as NETPROF, EQUITY, and SALES drove the clustering separation.<br>
+Business Use-Case → Enables targeted customer strategies, risk modeling, and resource allocation.
