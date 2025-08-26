@@ -7,4 +7,4 @@ industry stabdard data ETL processes, ensuring data quality for Knowledge discov
 ## current uploaded notebooks
 - Decision Tree model on Titanic data
 - Regression Tree model on Patient Heart data
-- Clustering analysis using pyclustering & Kmeans</b> on business data - representing company financials, employment, equity, assets, and sales.
+- Clustering analysis using pyclustering & Kmeans</b> on business data - representing company financials, employment, equity, assets, and sales. 
