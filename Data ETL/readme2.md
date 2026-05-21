@@ -1,4 +1,4 @@
-🧹 <h2> Housing Price Prediction Using XGBoost and Spatial Feature Engineering </h2>
+<h2> Housing Price Prediction Using XGBoost and Spatial Feature Engineering </h2>
 
 Overview
 
@@ -15,34 +15,34 @@ This notebook <b> -House_std.ipynb </b>. I Developed a machine learning pipeline
 - Outlier Detection & Handling
   
 Data Standardization
-- Replaced inconsistent null types (NaN, None) with standardized values.
-- Ensured uniform encoding across related features to support further modeling or visualization tasks.
-- Feature Relationship Analysis
-- Explored relationships between Beds, Baths, and HouseArea to drive better imputation logic.
-- Visualized patterns and counts of imputed vs. original values.
+* Replaced inconsistent null types (NaN, None) with standardized values.
+* Ensured uniform encoding across related features to support further modeling or visualization tasks.
+* Feature Relationship Analysis
+* Explored relationships between Beds, Baths, and HouseArea to drive better imputation logic.
+* Visualized patterns and counts of imputed vs. original values.
 
 📈 Outcome
 <h3> Strong Technical Findings: </h3>
-- Spatial features contributed significantly to pricing behavior.
-- Engineered ratio-based features improved predictive stability.
-- XGBoost handled nonlinear housing relationships effectively.
-- Log-transformed target improved model learning behavior.
+* Spatial features contributed significantly to pricing behavior.
+* Engineered ratio-based features improved predictive stability.
+* XGBoost handled nonlinear housing relationships effectively.
+* Log-transformed target improved model learning behavior.
 
 <h3>Modeling Findings: </h3>
-- Initial extremely high R² scores suggested potential leakage or overfitting risks.
-- Refactored pipeline produced more realistic model behavior.
-- Final evaluation metrics indicated a stable baseline real estate prediction model. 
+* Initial extremely high R² scores suggested potential leakage or overfitting risks.
+* Refactored pipeline produced more realistic model behavior.
+* Final evaluation metrics indicated a stable baseline real estate prediction model. 
 
 <h3>Business Insight: </h3>
 The project demonstrates how machine learning can be used to:
-- Estimate residential property values.
-- Identify pricing patterns.
-- Support valuation workflows.
-- Improve market analysis efficiency.
+* Estimate residential property values.
+* Identify pricing patterns.
+* Support valuation workflows.
+* Improve market analysis efficiency.
 
 📁 Repository Structure
 * house_std.ipynb — Jupyter notebook with full data wrangling workflow
-* README.md — Project overview and documentation
+* README.md — Project overview and documentation. <br>
 *** data - sourced from https://www.zillow.com/homedetails/
 
 
