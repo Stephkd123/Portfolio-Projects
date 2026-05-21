@@ -23,30 +23,27 @@ Data Standardization
 
 📈 Outcome
 <h3> Strong Technical Findings: </h3>
-- Spatial features contributed significantly to pricing behavior
-- Engineered ratio-based features improved predictive stability
-- XGBoost handled nonlinear housing relationships effectively
-- Log-transformed target improved model learning behavior
+- Spatial features contributed significantly to pricing behavior.
+- Engineered ratio-based features improved predictive stability.
+- XGBoost handled nonlinear housing relationships effectively.
+- Log-transformed target improved model learning behavior.
 
 <h3>Modeling Findings: </h3>
-- Initial extremely high R² scores suggested potential leakage or overfitting risks
-- Refactored pipeline produced more realistic model behavior
+- Initial extremely high R² scores suggested potential leakage or overfitting risks.
+- Refactored pipeline produced more realistic model behavior.
 - Final evaluation metrics indicated a stable baseline real estate prediction model. 
 
 <h3>Business Insight: </h3>
 The project demonstrates how machine learning can be used to:
-- Estimate residential property values
-- Identify pricing patterns
-- Support valuation workflows
-- Improve market analysis efficiency
+- Estimate residential property values.
+- Identify pricing patterns.
+- Support valuation workflows.
+- Improve market analysis efficiency.
 
 📁 Repository Structure
-
-
-├── house_std.ipynb — Jupyter notebook with full data wrangling workflow
-├── README.md — Project overview and documentation
-    data - sourced from https://www.zillow.com/homedetails/
-
+* house_std.ipynb — Jupyter notebook with full data wrangling workflow
+* README.md — Project overview and documentation
+*** data - sourced from https://www.zillow.com/homedetails/
 
 
 💡 Technical Skills Demonstrated
