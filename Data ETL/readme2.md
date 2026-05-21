@@ -1,31 +1,18 @@
-🧹 Real Estate Data Cleaning & Wrangling Project
+🧹 <h2> Housing Price Prediction Using XGBoost and Spatial Feature Engineering </h2>
+
 Overview
 
-This notebook demonstrates end-to-end data cleaning and preprocessing steps applied to a real estate dataset. The project highlights my ability to identify, diagnose, and handle data quality issues—including missing values, inconsistent formats, and outliers—preparing the dataset for further analysis or modeling. The process reflects practical, real-world data handling and follows current industry practices for effective data wrangling.
-
-📌 Project Objective
-
-To clean, standardize, and impute missing data from a real estate dataset with nearly 10,000 records, ensuring the data is accurate, complete, and usable for downstream analysis or predictive modeling.
-
-🛠️ Tools & Libraries Used
-Python
-Pandas
-NumPy
-Matplotlib & Seaborn
-Scikit-learn
+This notebook <b> -House_std.ipynb </b>. I Developed a machine learning pipeline for residential housing price prediction using XGBoost, spatial feature engineering, and structured preprocessing techniques. The project includes exploratory data analysis, missing value handling, feature engineering, model evaluation, and production-oriented regression workflows for real estate pricing.
 
 🔍 Key Steps Performed
-- Data Loading & Initial Inspection
-- Loaded dataset and explored data types, missing value distributions, and column summaries.
-- Identified key features with missing values and assessed their significance and impact.
-- Missing Value Handling
-- Dropped records with null values in AddressStreet, AddressCity, and AddressState due to <1% missing rate.
-- Applied median imputation for Beds, Baths, and HouseArea based on distribution analysis and outlier filtering.
-- Imputed "Unknown" or "Undisclosed" for categorical fields such as Lat/Long, PGAPt, Zestimate, BadgeInfo, and more.
+- Spatial feature engineering using latitude and longitude
+- Price prediction using XGBoost Regressor
+- Feature interaction engineering
+- Missing data analysis and cleaning
+- Model evaluation using R², MAE, and MSE
+- Leakage-aware ML pipeline design
+- Scalable preprocessing workflows
 - Outlier Detection & Handling
-- Visualized distribution of Beds, Baths, and HouseArea to detect skewness and extreme values.
-- Filtered extreme outliers and preserved the realistic range of housing attributes.
-- Used logical ratios (e.g., Bath-to-Bedroom ratio) to guide accurate imputations.
   
 Data Standardization
 - Replaced inconsistent null types (NaN, None) with standardized values.
@@ -35,26 +22,45 @@ Data Standardization
 - Visualized patterns and counts of imputed vs. original values.
 
 📈 Outcome
-The dataset was transformed into a well-structured and clean format, with:
-Over 95% reduction in missing critical fields.
-Accurate imputation based on domain logic and distribution analysis.
-Clear documentation of every decision and process.
+<h3> Strong Technical Findings: </h3>
+- Spatial features contributed significantly to pricing behavior
+- Engineered ratio-based features improved predictive stability
+- XGBoost handled nonlinear housing relationships effectively
+- Log-transformed target improved model learning behavior
+
+<h3>Modeling Findings: </h3>
+- Initial extremely high R² scores suggested potential leakage or overfitting risks
+- Refactored pipeline produced more realistic model behavior
+- Final evaluation metrics indicated a stable baseline real estate prediction model. 
+
+<h3>Business Insight: </h3>
+The project demonstrates how machine learning can be used to:
+- Estimate residential property values
+- Identify pricing patterns
+- Support valuation workflows
+- Improve market analysis efficiency
 
 📁 Repository Structure
 
-.
-├── .ipynb — Jupyter notebook with full data wrangling workflow
+
+├── house_std.ipynb — Jupyter notebook with full data wrangling workflow
 ├── README.md — Project overview and documentation
     data - sourced from https://www.zillow.com/homedetails/
 
 
 
-💡 Skills Demonstrated
-Practical data wrangling & preprocessing
-Exploratory Data Analysis (EDA)
-Handling missing data and outliers
-Feature imputation logic
-Visual data validation
+💡 Technical Skills Demonstrated
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Feature Engineering
+- Regression Modeling
+- Spatial Data Modeling
+- Data Visualization
+- Model Evaluation
+- ML Pipeline Design
 
 📬 Contact
 If you'd like to collaborate or learn more about my work in data science and AI engineering, feel free to reach out via LinkedIn or my portfolio site.
