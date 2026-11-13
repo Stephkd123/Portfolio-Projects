@@ -103,12 +103,6 @@ Developed an unsupervised machine learning workflow for music clustering and aco
 
 <h3>Outcome</h3>
 
-## Strong Technical Findings:
-* Spatial features contributed significantly to pricing behavior.
-* Engineered ratio-based features improved predictive stability.
-* XGBoost handled nonlinear housing relationships effectively.
-* Log-transformed target improved model learning behavior.
-
 ## Modeling Findings: 
 * Audio-based clustering produced overlapping music groups.
 * Low silhouette score indicated weak natural separation between songs.
